@@ -1,4 +1,4 @@
-body{
+body {
     background-color: white;
 }
 
@@ -12,10 +12,35 @@ body{
     padding: 0;
 }
 
-.card .card-img-top{
+.card .card-img-top {
     border-radius: 1rem 1rem 0 0;
 }
 
-#self-introduction-text{
+#self-introduction-text {
     text-align: center;
 }
+
+.product-header {
+    background-color: #ddd;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    border: medium solid #ddd;
+}
+
+.product-header .title {
+    background-color: #FFF;
+}
+
+.carousel-item .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+
+/* .product-header .title h1 {
+    text-align: center;
+} */
